@@ -6,8 +6,11 @@
 <script>
 
 function calc(){
-let P = ((r/100/12)*PV/(1-(1+(r/100/12))**-(n*12));
-document.getElementById("ans").innerHTML = "If you take a loan of $"+ PV +"for"+ n +"years with"+ r +"% interest, your payment will be $"P.toFixed(2);
+let r = document.getElementById("r").value;
+let PV = document.getElementById("PV").value;
+let n = document.getElementById("n").value;
+let P = ((r/100/12) * PV) / (1 - (1 + (r/100/12)) ** -(n * 12));
+document.getElementById("ans").innerHTML = "If you take a loan of $"+ PV +"for"+ n +"years with"+ r +"% interest, your payment will be $" + P.toFixed(2);
 }
 
     </script>
@@ -21,7 +24,6 @@ document.getElementById("ans").innerHTML = "If you take a loan of $"+ PV +"for"+
 <p> Annual Interest Rate %: <input id="r"> <br>
 
 <button onclick="calc()"> Calculate Monthly Payment </button>
-
 
 </p>
 <p>
