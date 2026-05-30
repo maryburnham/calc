@@ -6,32 +6,13 @@
 <script>
 
 function add(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) + Number(b);
+let P = ((r/100/12)*PV/(1-(1+(r/100/12))**-(n*12));
+//let a = document.getElementById("fn").value;
+//let b = document.getElementById("sn").value;
+//let c = Number(a) + Number(b);
 document.getElementById("ans").innerHTML = c;
 }
 
-function sub(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) - Number(b);
-document.getElementById("ans").innerHTML = c;
-}
-
-function mul(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) * Number(b);
-document.getElementById("ans").innerHTML = c;
-}
-
-function div(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) / Number(b);
-document.getElementById("ans").innerHTML = c;
-}
     </script>
         </head>
 
