@@ -20,7 +20,7 @@ document.getElementById("ans").innerHTML = "If you take a loan for $"+ PV +"your
 <p> Years: <input id="n"> <br>
 <p> Annual Interest Rate %: <input id="r"> <br>
 
-<button onclick="calc()"> Calculate Monthly Payment </button>
+<button onclick="function calc()"> Calculate Monthly Payment </button>
 
 
 </p>
