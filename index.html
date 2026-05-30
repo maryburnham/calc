@@ -5,44 +5,22 @@
 
 <script>
 
-function add(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) + Number(b);
+function calc(){
+let P = ((r/100/12)*PV/(1-(1+(r/100/12))**-(n*12));
 document.getElementById("ans").innerHTML = c;
 }
 
-function sub(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) - Number(b);
-document.getElementById("ans").innerHTML = c;
-}
-
-function mul(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) * Number(b);
-document.getElementById("ans").innerHTML = c;
-}
-
-function div(){
-let a = document.getElementById("fn").value;
-let b = document.getElementById("sn").value;
-let c = Number(a) / Number(b);
-document.getElementById("ans").innerHTML = c;
-}
     </script>
         </head>
 
 
         <h3>Loan Payment Calculator</h3>
 
-<p> Borrowing Amount: <input id="fn"> <br>
-<p> Years: <input id="sn"> <br>
-<p> Annual Interest Rate %: <input id="sn"> <br>
+<p> Borrowing Amount: <input id="PV"> <br>
+<p> Years: <input id="n"> <br>
+<p> Annual Interest Rate %: <input id="r"> <br>
 
-<button onclick="add()"> Calculate Monthly Payment </button>
+<button onclick="calc()"> Calculate Monthly Payment </button>
 
 
 </p>
