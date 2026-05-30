@@ -25,7 +25,7 @@ document.getElementById("ans").innerHTML = "If you take a loan of $"+ PV +"for"+
 
 </p>
 <p>
-    Monthly Payment: <span id="ans">__________</span></p>
+    Monthly Payment: <span id="calc">__________</span></p>
 
 <script>
 
