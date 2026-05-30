@@ -1,7 +1,7 @@
 <!DOCTYPE html>
  <html>
     <head>
-        <title>Sample JavaScript IO Page</title>
+        <title>Loan Payment Calculator</title>
 
 <script>
 
@@ -36,19 +36,18 @@ document.getElementById("ans").innerHTML = c;
         </head>
 
 
-        <h3>This is a Sample JavaScript and HTML document.</h3>
+        <h3>Loan Payment Calculator</h3>
 
-<p> First number? <input id="fn"> <br>
-<p> Second number? <input id="sn"> <br>
+<p> Borrowing Amount: <input id="fn"> <br>
+<p> Years: <input id="sn"> <br>
+<p> Annual Interest Rate %: <input id="sn"> <br>
 
-<button onclick="add()"> Add the Numbers </button>
-<button onclick="sub()"> Subtract the Numbers </button>
-<button onclick="mul()"> Multiply the Numbers </button>
-<button onclick="div()"> Divide the Numbers </button>
+<button onclick="add()"> Calculate Monthly Payment </button>
+
 
 </p>
 <p>
-    Your answer is: <span id="ans">__________</span></p>
+    Monthly Payment: <span id="ans">__________</span></p>
 
 <script>
 
