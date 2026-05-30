@@ -16,9 +16,9 @@ document.getElementById("ans").innerHTML = c;
 
         <h3>Loan Payment Calculator</h3>
 
-<p> Borrowing Amount: <input id="ba"> <br>
-<p> Years: <input id="yr"> <br>
-<p> Annual Interest Rate %: <input id="ai"> <br>
+<p> Borrowing Amount: <input id="PV"> <br>
+<p> Years: <input id="n"> <br>
+<p> Annual Interest Rate %: <input id="r"> <br>
 
 <button onclick="calc()"> Calculate Monthly Payment </button>
 
