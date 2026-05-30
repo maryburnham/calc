@@ -9,8 +9,8 @@ function calc(){
 let r = document.getElementById("r").value;
 let PV = document.getElementById("PV").value;
 let n = document.getElementById("n").value;
-let P = ((r/100/12)*PV/(1-(1+(r/100/12))**-(n*12));
-document.getElementById("ans").innerHTML = "If you take a loan of $"+ PV +"for"+ n +"years with"+ r +"% interest, your payment will be $" P.toFixed(2);
+let P = ((r/100/12) * PV) / (1 - (1 + (r/100/12)) ** -(n * 12));
+document.getElementById("ans").innerHTML = "If you take a loan of $"+ PV +"for"+ n +"years with"+ r +"% interest, your payment will be $" + P.toFixed(2);
 }
 
     </script>
