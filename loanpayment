@@ -7,7 +7,7 @@
 
 function calc(){
 let P = ((r/100/12)*PV/(1-(1+(r/100/12))**-(n*12));
-document.getElementById("ans").innerHTML = c;
+document.getElementById("ans").innerHTML = P;
 }
 
     </script>
@@ -25,7 +25,7 @@ document.getElementById("ans").innerHTML = c;
 
 </p>
 <p>
-    Monthly Payment: <span id="P">__________</span></p>
+    Monthly Payment: <span id="ans">__________</span></p>
 
 <script>
 
