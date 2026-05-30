@@ -25,7 +25,7 @@ document.getElementById("ans").innerHTML = c;
 
 </p>
 <p>
-    Monthly Payment: <span id="ans">__________</span></p>
+    Monthly Payment: <span id="P">__________</span></p>
 
 <script>
 
